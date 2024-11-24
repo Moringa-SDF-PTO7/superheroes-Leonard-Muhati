@@ -61,10 +61,11 @@ You can install dependencies using a `Pipfile` or `requirements.txt`.
 **Request**:
 ```http
 GET /heroes HTTP/1.1
+```
 Response:
 
 ```json
-Copy code
+
 [
     {
         "id": 1,
@@ -77,31 +78,34 @@ Copy code
         "super_name": "Batman"
     }
 ]
+```
 Update a Power
 Request:
 
 ```http
-Copy code
+
 PATCH /powers/1 HTTP/1.1
 Content-Type: application/json
 
 {
     "description": "This power allows heroes to fly at incredible speeds."
 }
+```
 Response:
 
 ```json
-Copy code
+
 {
     "id": 1,
     "name": "Flight",
     "description": "This power allows heroes to fly at incredible speeds."
 }
+```
 Create Hero-Power Association
 Request:
 
 ```http
-Copy code
+
 POST /hero_powers HTTP/1.1
 Content-Type: application/json
 
@@ -114,7 +118,7 @@ Content-Type: application/json
 Response:
 
 ```json
-Copy code
+
 {
     "id": 1,
     "strength": "Strong",
