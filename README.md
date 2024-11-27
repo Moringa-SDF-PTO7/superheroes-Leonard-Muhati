@@ -2,6 +2,8 @@
 # # Superheroes API
 Welcome to the **Superheroes API**! This RESTful API allows you to manage superheroes and their superpowers. You can retrieve information about heroes, powers, and hero-power associations, as well as update and create new data.
 
+the code challenge is deployed in "**https://superheroes-leonard-muhati-6.onrender.com**"
+
 ## Prerequisites
 To run this project, you need:
 
